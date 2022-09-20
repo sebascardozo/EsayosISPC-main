@@ -4,61 +4,106 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <title>Primer pagina web</title>
-    <link rel="stylesheet" href="styles/stile.css">
+    <link rel="stylesheet" href="styles/stile.css" />
   </head>
 
   <body>
-    <h1>Hola y bienvenidos a mi sitio web de la sala 10!</h1>
-    <p>Esto es un parrafo</p>
+    <nav class="navbar navbar-expand-lg bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">PET´S</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h1 class="text-center">TODOS PET´S</h1>
+    <h2 class="text-center">EL SHOPPING PARA TU MEJOR AMIGO</h2>
+    <div href="contacto.html">
+      <img
+        src="image/alimentoBoxer.png"
+        class="rounded mx-auto d-block max-width: 100% height: auto"
+        alt="alimento para perro"
+      />
+    </div>
+
     <p>Esto es un segundo parrafo</p>
     <b>Parrafo nregrita</b>
     <br /><br />
     <i>Parrafo en cursiva</i>
     <h2>Enlaces</h2>
     <a href="https://www.ispc.edu.ar/">ISPC</a>
-    <a href="contacto.html">Contacto</a>
+    <a href="">Contacto</a>
 
     <h3>NUESTRAS CLASES</h3>
-    <img src="image/Class.png" alt="Clase en plataforma ISPC" title="clases a alumnos">
+    <img
+      src="image/Class.png"
+      alt="Clase en plataforma ISPC"
+      title="clases a alumnos"
+    />
 
     <h4>tablas</h4>
-    <table style="width:300px">
-      <caption>Mis libros</caption>
+    <table style="width: 300px">
+      <caption>
+        Mis libros
+      </caption>
       <thead>
-      <tr>
-      <th style="width:59%">categoria</th>
-      <th style="width:41%">ejemplares</th>
-      </tr>
+        <tr>
+          <th style="width: 59%">categoria</th>
+          <th style="width: 41%">ejemplares</th>
+        </tr>
       </thead>
       <tbody>
-      <tr>
-      <td>Infantiles</td>
-      <td>12</td>
-      </tr>
-      <tr>
-      <td>Drama</td>
-      <td>10</td>
-      </tr>
-      <tr>
-      <td>Historia</td>
-      <td>23</td>
-      </tr>
-      <tr>
-      <td>Terror</td>
-      <td>14</td>
-      </tr>
+        <tr>
+          <td>Infantiles</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <td>Drama</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Historia</td>
+          <td>23</td>
+        </tr>
+        <tr>
+          <td>Terror</td>
+          <td>14</td>
+        </tr>
       </tbody>
-      
-      <tfoot style="font-weight:bold">
-      <tr>
-      <td>Total</td>
-      <td>59</td>
-      </tr>
+
+      <tfoot style="font-weight: bold">
+        <tr>
+          <td>Total</td>
+          <td>59</td>
+        </tr>
       </tfoot>
-      </table>
-
+    </table>
   </body>
+  <!-- CSS only -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+    crossorigin="anonymous"
+  />
 </html>
-
