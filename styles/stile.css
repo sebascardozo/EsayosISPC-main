@@ -1,3 +1,13 @@
 h1 {
-    color: rgb(207, 3, 3);
+  color: rgb(207, 3, 3);
+}
+.header {
+  color: #36a0ff;
+  font-size: 27px;
+  padding: 10px;
+}
+
+.bigicon {
+  font-size: 35px;
+  color: #36a0ff;
 }
